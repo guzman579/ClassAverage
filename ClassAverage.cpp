@@ -7,9 +7,9 @@ using namespace std;
 int main()
 {
 
-		int total = 0; // initialize sum of grades entered by the user
-		int gradeCounter = 1; // initialize # of grade to be entered next
-		int grade;
+		double total = 0; // initialize sum of grades entered by the user
+		double gradeCounter = 1; // initialize # of grade to be entered next
+		double grade;
 		// processing phase uses counter-controlled repetition
 		while (gradeCounter <= 10) // loop 10 times
 		{
@@ -19,7 +19,7 @@ int main()
 			gradeCounter = gradeCounter + 1; // increment counter by 1
 		}
 
-		int average = total / 10;
+		double average = total / 10;
 
 		// display total and average of grades
 		cout<<"Total of all 10 grades is "<<total<<endl;
